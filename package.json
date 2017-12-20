@@ -1,0 +1,24 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "frontend mock backend api server",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pndgz/mockserver.git"
+  },
+  "keywords": [
+    "mock",
+    "api",
+    "server"
+  ],
+  "author": "GordonDu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pndgz/mockserver/issues"
+  },
+  "homepage": "https://github.com/pndgz/mockserver#readme"
+}
