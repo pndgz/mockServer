@@ -4,6 +4,7 @@
   "description": "frontend mock backend api server",
   "main": "src/app.js",
   "scripts": {
+    "dev": "node $NODE_DEBUG_OPTION src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/pndgz/mockserver/issues"
   },
-  "homepage": "https://github.com/pndgz/mockserver#readme"
+  "homepage": "https://github.com/pndgz/mockserver#readme",
+  "dependencies": {
+    "log4js": "^2.4.1",
+    "mongoose": "^4.13.7"
+  }
 }
