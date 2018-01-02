@@ -1,8 +1,6 @@
+import {routes} from '../Routes'
 
-var route = require('../lib/route');
+routes.def('/test', function (request, response) {
+  return {code: 200, msg: 'test ok'}
+})
 
-route.get("/test", function(request, response) {
-    return {code: 200, msg: "test ok"};
-});
-
-module.exports = route;
